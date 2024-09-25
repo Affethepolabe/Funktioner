@@ -20,12 +20,12 @@ def lTriangle(n):
     for i in range(n//2 + 1):
         print(" " * ((n//2) - i) + "*" * (2 * i + 1))
 
-print("-"*50)
-print("-"*50)
+print("-"*(n+5))
+print("-"*(n+5))
 rTriangle(n)
-print("-"*50)
-print("-"*50)
+print("-"*(n+5))
+print("-"*(n+5))
 lTriangle(n)
-print("-"*50)
-print("-"*50)
+print("-"*(n+5))
+print("-"*(n+5))
 
