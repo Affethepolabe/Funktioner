@@ -1,7 +1,7 @@
 import math as m
 
 cords=[]
-cordsString= input()
+cordsString= input("Ange i formatet: x,x y,y x,x y,y : ")
 cords = cordsString.split()
 
 x1 = float(cords[0])
